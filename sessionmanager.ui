@@ -88,7 +88,7 @@
           <x>0</x>
           <y>0</y>
           <width>475</width>
-          <height>386</height>
+          <height>389</height>
          </rect>
         </property>
         <layout class="QFormLayout" name="formLayout_2">
@@ -171,6 +171,12 @@
    </item>
    <item>
     <widget class="QGroupBox" name="groupBox">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>40</height>
+      </size>
+     </property>
      <property name="title">
       <string/>
      </property>
@@ -239,12 +245,6 @@
        <string>Delete</string>
       </property>
      </widget>
-     <zorder>Connect_button</zorder>
-     <zorder>Cancel_button</zorder>
-     <zorder>new_button</zorder>
-     <zorder>save_button</zorder>
-     <zorder>delete_button</zorder>
-     <zorder>horizontalLayoutWidget</zorder>
     </widget>
    </item>
   </layout>
