@@ -60,7 +60,7 @@
    </property>
    <widget class="QMenu" name="menuFile">
     <property name="title">
-     <string>File</string>
+     <string>&amp;File</string>
     </property>
     <addaction name="actionSession_Manager"/>
     <addaction name="actionConnect_TO"/>
@@ -75,7 +75,7 @@
    </widget>
    <widget class="QMenu" name="menuEdit">
     <property name="title">
-     <string>Edit</string>
+     <string>&amp;Edit</string>
     </property>
     <addaction name="separator"/>
     <addaction name="actionCopy"/>
@@ -89,7 +89,7 @@
    </widget>
    <widget class="QMenu" name="menuTools">
     <property name="title">
-     <string>Tools</string>
+     <string>&amp;Tools</string>
     </property>
     <addaction name="actionNext_tab"/>
     <addaction name="actionPrevious_tab"/>
@@ -104,7 +104,7 @@
    </widget>
    <widget class="QMenu" name="menuImport">
     <property name="title">
-     <string>Import</string>
+     <string>&amp;Import</string>
     </property>
     <addaction name="actionImport_CSV"/>
     <addaction name="actionLoad_SQL_File"/>
@@ -112,7 +112,7 @@
    </widget>
    <widget class="QMenu" name="menuExport">
     <property name="title">
-     <string>Export</string>
+     <string>&amp;Export</string>
     </property>
     <addaction name="actionExport_database_as_SQL"/>
     <addaction name="separator"/>
@@ -124,7 +124,7 @@
    </widget>
    <widget class="QMenu" name="menuHelp">
     <property name="title">
-     <string>Help</string>
+     <string>&amp;Help</string>
     </property>
     <addaction name="actionSQL_Help"/>
     <addaction name="separator"/>

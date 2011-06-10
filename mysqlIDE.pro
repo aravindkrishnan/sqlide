@@ -11,8 +11,11 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    sessionmanager.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    sessionmanager.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    sessionmanager.ui
